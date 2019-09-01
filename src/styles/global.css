@@ -1,0 +1,41 @@
+html {
+    background-color: white;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.highlight {
+	color: #985E6D;
+}
+
+.box-portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.portfolio-img {
+    height: 300px;
+}
+
+.portfolio-item {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 232, 243);
+    line-height: 2rem;
+}
+.visit-site {
+    margin: 20px;
+}
+
+.visit-site-btn {
+   /*  border: 1px solid #b1aeae; */
+    /* color: #797676; */
+    padding: 10px;
+    border-radius: 3px;
+}
